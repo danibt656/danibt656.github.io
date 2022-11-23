@@ -80,8 +80,6 @@
 
 					<h3 class="text-dark mb-2">Daniel Barahona</h3>
 
-					<div class="d-none" id="contadorVisitas"></div>
-
 					<p class="text-secondary mb-4">Computer Science Senior student at the Polytechnic Superior School (UAM)</p>
 					
 					<div class="row mb-2">
@@ -101,7 +99,7 @@
 						</div>
 
 						<div class="col-10">
-							<a href="assets/docs/CV.pdf" class="link-dark" target="_blank">CV [Updated 11/2022]</a>
+							<a href="assets/docs/CV.pdf" id="link-cv" target="_blank">CV [Updated 11/2022]</a>
 						</div>
 					</div>
 
@@ -185,7 +183,7 @@
 								</li>
 							</ul>
 
-                            <h4 id="honors-and-awards" class="mt-2">Hard Skills</h4>
+                            <!-- <h4 id="honors-and-awards" class="mt-2">Hard Skills</h4>
                             <ul class="mt-1" >
                                 <li class="abme-honors-bullet mt-2">Python, C/C++, Java, DHTML</li>
                                 <li class="abme-honors-bullet mt-2">SQL, Docker/Kubernetes, MongoDB, Flask, Django</li>
@@ -200,7 +198,7 @@
                                 <li class="abme-honors-bullet mt-2">Self-discipline</li>
                                 <li class="abme-honors-bullet mt-2">Teamwork organization</li>
                                 <li class="abme-honors-bullet mt-2">Adaptability</li>
-                            </ul>
+                            </ul> -->
 						</div>
 					</div>
 				</div>
@@ -210,7 +208,7 @@
 				<div class="col-md-8 offset-md-1 mb-5" id="educationContent">
 					<div class="container">
                         
-                        <h2><b>Work Experience</b></h2>
+                        <h2 style="font-family: Serif"><b>Work Experience</b></h2>
                         
                         <div class="row mt-3">
 							<h3><i>Intern Employee, Machine Learning</i></h3>
@@ -231,7 +229,7 @@
 						</div>
 
                         <br>
-                        <h2><b>Education</b></h2>
+                        <h2 style="font-family: Serif"><b>Education</b></h2>
 
 						<div class="row mt-3">
 							<h3><i>Degree in Computer Science</i></h3>
@@ -257,7 +255,7 @@
 				<!-- Portfolio -->
 				<div class="col-md-8 offset-md-1 mb-5" id="portfolioContent">
 
-                    <h2><b>Publications</b></h2>
+                    <h2 style="font-family: Serif"><b>Publications</b></h2>
 
 					<div class="container">
 						<div class="row mt-2">
@@ -272,14 +270,14 @@
 					</div>
 
                     <br>
-                    <h2><b>Personal projects</b></h2>
+                    <h2 style="font-family: Serif"><b>Personal projects</b></h2>
 
 					<div class="container">
 						<div class="row mt-2">
                             <div class="thumbnail col-md-3">
                                 <img class="rounded mx-auto d-block img-fluid" src="/assets/img/mapache.png" alt="Mapache">
                             </div>
-							<div class="col-md-9">
+							<div class="col-md-9 pub-block">
 								<div class="trnsf-italic h5">Mapache Server</div>
 								<div class="pub-authors mt-1">Fully functional HTTP Web Server</div>
 								<div class="pub-congress">Full support of HTTP & HTTPS protocols. Generation of directory listings. Admits custom configuration files that let the user tweak the server to its needs.</div>
@@ -296,7 +294,7 @@
                             <div class="thumbnail col-md-3">
                                 <img class="rounded mx-auto d-block img-fluid" src="/assets/img/hera.jpg" alt="Hera">
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-md-9 pub-block">
                                 <div class="trnsf-italic h5">Hera</div>
                                 <div class="pub-authors mt-1">A simple, voice-directed virtual assistant</div>
                                 <div class="pub-congress">Homemade domestic assistant based on Alexa/Siri.<br>Custom TCP Client-Server protocol, in order to have it functioning for all devices in a private LAN.<br>Connected with external API for retrieving the weather in any given city of the globe.</div>
@@ -313,7 +311,7 @@
                             <div class="thumbnail col-md-3">
                                 <img class="rounded mx-auto d-block img-fluid" src="/assets/img/ares.jpg" alt="Ares">
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-md-9 pub-block">
                                 <div class="trnsf-italic h5">Ares</div>
                                 <div class="pub-authors mt-1">Compiler for my own custom programming language</div>
                                 <div class="pub-congress">Created a lexer with Flex & Bison. Learned about programming languages, x86 assembly, and also deepened my knowledge in C and the Makefiles.</div>

@@ -5,6 +5,11 @@ a {
 	text-decoration-thickness: 1px;
 }
 
+#link-cv {
+	font-weight: bold;
+	color:rgb(17, 114, 226);
+}
+
 #hobbiesH4 {
 	text-align: center;
 }
@@ -40,7 +45,6 @@ li > .active {
   	text-justify: inter-word;
 }
 
-/* NICOLAS MESEGUER CONTACT INFO - Related*/
 .profilepicture {
 	max-height: 200px;
 	min-width: 150px;
