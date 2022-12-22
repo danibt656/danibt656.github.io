@@ -115,6 +115,10 @@ function scrollToContent(divId) {
 }
 
 function loadEn() {
+	$('#aboutme').text("About Me");
+	$('#education').text("Education & Experience");
+	$('#portfolio').text("Portfolio");
+
 	// ABOUT ME
 
 	$('#littledesc').text("Computer Science senior student at the Polytechnic Superior School (UAM)");
@@ -188,6 +192,10 @@ function loadEn() {
 }
 
 function loadEs() {
+	$('#aboutme').text("Sobre mí");
+	$('#education').text("Educación y experiencia");
+	$('#portfolio').text("Portfolio");
+	
 	// ABOUT ME
 
 	$('#littledesc').text("Estudiante de último curso de Ingeniería Informática en la Escuela Politécnica Superior (UAM)");
@@ -261,6 +269,10 @@ function loadEs() {
 }
 
 function loadFr() {
+	$('#aboutme').text("Sur moi");
+	$('#education').text("Éducation & Expérience");
+	$('#portfolio').text("Portfolio");
+	
 	// ABOUT ME
 
 	$('#littledesc').text("Étudiant en dernière année d'ingénierie informatique à l'École Polytechnique Supérieure (UAM).");
