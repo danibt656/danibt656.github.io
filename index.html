@@ -47,7 +47,12 @@
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="navbar-collapse collapse flex-grow-1 justify-content-center" id="collapsingNavbar3">
-					<ul class="navbar-nav mx-auto" id="navbarList">
+					<ul class="navbar-nav mx-auto" id="navbarList" data-width="fit">
+						<select id="langselector" class="form-select" style="width:fit-content" onchange="loadlang()">
+							<option value="en">English</option>
+							<option value="es">Español</option>
+							<option value="fr">Français</option>
+						</select>
 						<li class="nav-item">
 							<a class="nav-link active" id="aboutme" href="#">About Me</a>
 						</li>
@@ -80,14 +85,14 @@
 
 					<h3 class="text-dark mb-2">Daniel Barahona</h3>
 
-					<p class="text-secondary mb-4">Computer Science senior student at the Polytechnic Superior School (UAM)</p>
+					<p id="littledesc" class="text-secondary mb-4">Computer Science senior student at the Polytechnic Superior School (UAM)</p>
 					
 					<div class="row mb-2">
 						<div class="col-1">
 							<i class="fas fa-map-marker"></i>
 						</div>
 
-						<div class="col-10">
+						<div id="city" class="col-10">
 							Madrid <br/>
 							Madrid, Spain
 						</div>
@@ -139,7 +144,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="container">
-								<div class="row content">
+								<div class="schools">
 									<div class="thumbnail col-md-2">
 										<img class="rounded mx-auto d-block img-fluid" src="/assets/img/ib.png" alt="IB">
 									</div>
@@ -151,17 +156,17 @@
 									</div>
 								</div>
 							</div>
-							<p class="mt-2 justify">
+							<div id="largedesc" class="mt-2 justify">
 								I'm a <b>senior student in Computer Engineering</b> based in Madrid (Spain), currently studying at the Polythecnic Superior School, or <a href="https://www.uam.es/ss/Satellite/EscuelaPolitecnica/es/home.htm" target="_blank">EPS-UAM</a> for short.
 								<br><br>
 								Of course, I do many other things apart from studying, like working on my personal projects. Although I focus on data science & machine learning at a professional level, I also enjoy classic low-level programming as a hobby quite a lot!
 								<br><br>
 								There's also my passion for learning foreign languages, which dates back to my early school years. But above all, I consider myself an avid reader and a learning enthusiast, ready to take the difficult path if the need arises (that's also why I am proud to say I went through the <a href="https://www.ibo.org" target="_blank">International Baccalaureate</a> diploma!)
-							</p>
+							</div>
 
 							<h4 id="researchinterestsH4" class="mt-2">Research Interests</h4>
 
-							<p class="mt-1">
+							<p id="researchinterests" class="mt-1">
 								I am deeply interested in Machine Learning with state-of-the-art methods such as Deep Neural Networks, CNNs and genetic algorithms. I also have expertise working with bias mitigation.
 							</p>
 
@@ -170,21 +175,27 @@
 							<ul class="mt-1">
 
 								<li class="abme-honors-bullet mt-2">
-									<strong>Collaboration Scholarship</strong> for final year's thesis
-									[<a href="https://www.educacionyfp.gob.es/servicios-al-ciudadano/catalogo/estudiantes/becas-ayudas/para-estudiar/universidad/grado/becas-colaboracion.html" class="link-dark" target="_blank">Ministry of Education</a>] 
-									- Nov, 2022
+									<div id="colab-scholarship">
+										<strong>Collaboration Scholarship</strong> for final year's thesis
+										[<a href="https://www.educacionyfp.gob.es/servicios-al-ciudadano/catalogo/estudiantes/becas-ayudas/para-estudiar/universidad/grado/becas-colaboracion.html" class="link-dark" target="_blank">Ministry of Education</a>] 
+										- Nov, 2022
+									</div>
 								</li>
 
                                 <li class="abme-honors-bullet mt-2">
-									<strong>Excelency Award</strong> for university students
-									[<a href="https://www.comunidad.madrid/servicios/educacion/becas-excelencia-universitarios" class="link-dark" target="_blank">Community of Madrid</a>] 
-									- Jun, 2022
+									<div id="madrid-scholarship">
+										<strong>Excelency Award</strong> for university students
+										[<a href="https://www.comunidad.madrid/servicios/educacion/becas-excelencia-universitarios" class="link-dark" target="_blank">Community of Madrid</a>] 
+										- Jun, 2022
+									</div>
 								</li>
 
                                 <li class="abme-honors-bullet mt-2">
-									<strong>Grades with Honors</strong> in 8 out of 32 courses
-									[Computer Science Degree] 
-									Sep, 2019 - Jun, 2023
+									<div id="honorgrades">
+										<strong>Grades with Honors</strong> in 8 out of 32 courses
+										[Computer Science Degree] 
+										Sep, 2019 - Jun, 2023
+									</div>
 								</li>
 							</ul>
 						</div>
@@ -196,10 +207,10 @@
 				<div class="col-md-8 offset-md-1 mb-5" id="educationContent">
 					<div class="container">
                         
-                        <h2>Work Experience</h2>
+                        <h2 id="workexpH2">Work Experience</h2>
 						<hr>
                         
-                        <div class="row mt-3">
+                        <div id="internshipIIC" class="row mt-3">
 							<h3><i>Internship, Machine Learning</i></h3>
 							<div class="trnsf-thin">(Knowledge Engineering Institute - IIC, 2023-Present)</div>
 
@@ -208,7 +219,7 @@
 							</p>
 						</div>
 
-                        <div class="row mt-3">
+                        <div id="fuam-realup" class="row mt-3">
 							<h3><i>Software Developer</i> [part-time]</h3>
 							<div class="trnsf-thin">(FUAM, 2022-2023)</div>
 
@@ -218,10 +229,10 @@
 						</div>
 
                         <br>
-                        <h2>Education</h2>
+                        <h2 id="educationH2">Education</h2>
 						<hr>
 
-						<div class="row mt-3">
+						<div id="compscidegree" class="row mt-3">
 							<h3><i>Degree in Computer Science</i></h3>
 							<div class="trnsf-thin">(UAM, 2019-2023) 8,82 / 10</div>
 
@@ -238,7 +249,7 @@
 
 						</div>
 						
-						<div class="row mt-3">
+						<div id="ibo" class="row mt-3">
 							<h3><i>International Baccalaureate Diploma</i></h3>
 							<div class="trnsf-thin">(IES Rosa Chacel (Colmenar Viejo), 2017-2019) 38 / 45</div>
 
