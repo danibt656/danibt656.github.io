@@ -48,11 +48,6 @@
 				</button>
 				<div class="navbar-collapse collapse flex-grow-1 justify-content-center" id="collapsingNavbar3">
 					<ul class="navbar-nav mx-auto" id="navbarList" data-width="fit">
-						<select id="langselector" class="form-select" style="width:fit-content" onchange="loadlang()">
-							<option value="en">English</option>
-							<option value="es">Español</option>
-							<option value="fr">Français</option>
-						</select>
 						<li class="nav-item">
 							<a class="nav-link active" id="aboutme" href="#">About Me</a>
 						</li>
@@ -63,10 +58,16 @@
 							<a class="nav-link" id="portfolio" href="#">Portfolio</a>
 						</li>
 						<!-- TEMPLATE
-						<li class="nav-item">
-							<a class="nav-link" id="name" href="#">Name</a>
-						</li>
+							<li class="nav-item">
+								<a class="nav-link" id="name" href="#">Name</a>
+							</li>
 						-->
+						<div style="padding-left: 2rem">
+						<select id="langselector" class="form-select" style="width:fit-content" onchange="loadlang()">
+							<option value="en">English</option>
+							<option value="es">Español</option>
+							<option value="fr">Français</option>
+						</select>
 					</ul>
 				</div>
 			</div>
