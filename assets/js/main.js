@@ -189,6 +189,36 @@ function loadEn() {
 
 
 	// PORTFOLIO
+	$('#publicationsH2').text("Publications");
+	$('#mapacheProj').html(`
+		<div class="row mt-2">
+			<div class="thumbnail col-md-3">
+				<img class="rounded mx-auto d-block img-fluid" src="/assets/img/mapache.png" alt="Mapache">
+			</div>
+			<div class="col-md-9 pub-block">
+				<div class="trnsf-italic h5">Mapache Server</div>
+				<div class="pub-authors mt-1">Fully functional HTTP Web Server</div>
+				<div class="pub-congress">Full support of HTTP & HTTPS protocols. Generation of directory listings. Admits custom configuration files that let the user tweak the server to its needs.</div>
+				<div class="pub-link mt-1"><i class="fab fa-github"></i> <a href="https://github.com/danibt656/Mapache" target="_blank" class="link-dark">GitHub</a></div>
+				<div class="d-none"></div>
+			</div>
+		</div>
+	`);
+	$('#heraProj').html(`
+		<div class="row mt-2">
+			<div class="thumbnail col-md-3">
+				<img class="rounded mx-auto d-block img-fluid" src="/assets/img/hera.jpg" alt="Hera">
+			</div>
+			<div class="col-md-9 pub-block">
+				<div class="trnsf-italic h5">Hera</div>
+				<div class="pub-authors mt-1">A simple, voice-directed virtual assistant</div>
+				<div class="pub-congress">Homemade domestic assistant based on Alexa/Siri. Custom TCP Client-Server protocol, in order to have it functioning for all devices in a private LAN. Connected with external API for retrieving the weather in any given city of the globe.</div>
+				<div class="pub-link mt-1"><i class="fab fa-github"></i> <a href="https://github.com/danibt656/Hera" target="_blank" class="link-dark">GitHub</a></div>
+				<div class="d-none"></div>
+			</div>
+		</div>
+	`);
+
 }
 
 function loadEs() {
@@ -266,6 +296,35 @@ function loadEs() {
 
 
 	// PORTFOLIO
+	$('#publicationsH2').text("Publications");
+	$('#mapacheProj').html(`
+		<div class="row mt-2">
+			<div class="thumbnail col-md-3">
+				<img class="rounded mx-auto d-block img-fluid" src="/assets/img/mapache.png" alt="Mapache">
+			</div>
+			<div class="col-md-9 pub-block">
+				<div class="trnsf-italic h5">Mapache Server</div>
+				<div class="pub-authors mt-1">Servidor web HTTP completamente funcional</div>
+				<div class="pub-congress">Soporte completo de los protocolos HTTP & HTTPS. Generación de listados de directorios. Admite ficheros de configuración que permiten al usuario adaptar el servidor a sus necesidades.</div>
+				<div class="pub-link mt-1"><i class="fab fa-github"></i> <a href="https://github.com/danibt656/Mapache" target="_blank" class="link-dark">GitHub</a></div>
+				<div class="d-none"></div>
+			</div>
+		</div>
+	`);
+	$('#heraProj').html(`
+		<div class="row mt-2">
+			<div class="thumbnail col-md-3">
+				<img class="rounded mx-auto d-block img-fluid" src="/assets/img/hera.jpg" alt="Hera">
+			</div>
+			<div class="col-md-9 pub-block">
+				<div class="trnsf-italic h5">Hera</div>
+				<div class="pub-authors mt-1">Asistente de voz doméstico simple</div>
+				<div class="pub-congress">Asistente doméstico casero basado en Alexa/Siri. Protocolo cliente-servidor TCP personalizado, para que funcione para todos los dispositivos de una LAN privada. Conectado con API externa para recuperar el tiempo en cualquier ciudad del globo.</div>
+				<div class="pub-link mt-1"><i class="fab fa-github"></i> <a href="https://github.com/danibt656/Hera" target="_blank" class="link-dark">GitHub</a></div>
+				<div class="d-none"></div>
+			</div>
+		</div>
+	`);
 }
 
 function loadFr() {
@@ -343,6 +402,35 @@ function loadFr() {
 
 
 	// PORTFOLIO
+	$('#publicationsH2').text("Publications");
+	$('#mapacheProj').html(`
+		<div class="row mt-2">
+			<div class="thumbnail col-md-3">
+				<img class="rounded mx-auto d-block img-fluid" src="/assets/img/mapache.png" alt="Mapache">
+			</div>
+			<div class="col-md-9 pub-block">
+				<div class="trnsf-italic h5">Mapache Server</div>
+				<div class="pub-authors mt-1">Serveur web HTTP entièrement fonctionnel</div>
+				<div class="pub-congress">Prise en charge complète des protocoles HTTP & HTTPS. Génération de listes d'répertoires. Prend en charge les fichiers de configuration qui permettent à l'utilisateur d'adapter le serveur à ses besoins.</div>
+				<div class="pub-link mt-1"><i class="fab fa-github"></i> <a href="https://github.com/danibt656/Mapache" target="_blank" class="link-dark">GitHub</a></div>
+				<div class="d-none"></div>
+			</div>
+		</div>
+	`);
+	$('#heraProj').html(`
+		<div class="row mt-2">
+			<div class="thumbnail col-md-3">
+				<img class="rounded mx-auto d-block img-fluid" src="/assets/img/hera.jpg" alt="Hera">
+			</div>
+			<div class="col-md-9 pub-block">
+				<div class="trnsf-italic h5">Hera</div>
+				<div class="pub-authors mt-1">Une assistant vocal domestique simple</div>
+				<div class="pub-congress">Assistant domestique basé sur Alexa/Siri. Protocole client-serveur TCP personnalisé pour fonctionner pour tous les appareils sur un réseau local privé. Connecté à une API externe pour récupérer l'heure dans n'importe quelle ville du globe.</div>
+				<div class="pub-link mt-1"><i class="fab fa-github"></i> <a href="https://github.com/danibt656/Hera" target="_blank" class="link-dark">GitHub</a></div>
+				<div class="d-none"></div>
+			</div>
+		</div>
+	`);
 }
 
 function loadlang() {
