@@ -123,7 +123,7 @@ function loadEn() {
 
 	$('#littledesc').text("Computer Science senior student at the Polytechnic Superior School (UAM)");
 	$('#city').html("Madrid <br/>Madrid, Spain");
-	$('#link-cv').text("CV [Updated 11/2022]");
+	$('#link-cv').text("CV [Updated 02/2023]");
 	$('#largedesc').html(`
 		I'm a <b>senior student in Computer Engineering</b> based in Madrid (Spain), currently studying at the Polythecnic Superior School, or <a href="https://www.uam.es/ss/Satellite/EscuelaPolitecnica/es/home.htm" target="_blank">EPS-UAM</a> for short.
 		<br><br>
@@ -230,7 +230,7 @@ function loadEs() {
 
 	$('#littledesc').text("Estudiante de último curso de Ingeniería Informática en la Escuela Politécnica Superior (UAM)");
 	$('#city').html("Madrid <br/>Madrid, España");
-	$('#link-cv').text("CV [Actualizado en 11/2022]");
+	$('#link-cv').text("CV [Actualizado en 02/2023]");
 	$('#largedesc').html(`
 		Soy un <b>estudiante de último curso de Ingeniería Informática</b> en Madrid (España), estudiando en la Escuela Politécnica Superior, o <a href="https://www.uam.es/ss/Satellite/EscuelaPolitecnica/es/home.htm" target="_blank">EPS-UAM</a> para abreviar.
 		<br><br>
@@ -336,7 +336,7 @@ function loadFr() {
 
 	$('#littledesc').text("Étudiant en dernière année d'ingénierie informatique à l'École Polytechnique Supérieure (UAM).");
 	$('#city').html("Madrid <br/>Madrid, Espagne");
-	$('#link-cv').text("CV [Mise à jour le 11/2022]");
+	$('#link-cv').text("CV [Mise à jour le 02/2023]");
 	$('#largedesc').html(`
 		Je suis <b>étudiant en dernière année d'Ingénierie Informatique</b> à Madrid (Espagne), à l'École Polytechnique Supérieure, ou <a href="https://www.uam.es/ss/Satellite/EscuelaPolitecnica/es/home.htm" target="_blank">EPS-UAM</a> en abrégé.
 		<br><br>
