@@ -1,3 +1,8 @@
+body:not(#profileinfo) {
+	font-family: serif;
+	font-size: 16px;
+}
+
 a {
 	text-decoration-thickness: 1px;
 }

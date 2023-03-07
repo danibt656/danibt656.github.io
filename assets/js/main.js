@@ -129,7 +129,7 @@ function loadEn() {
 		<br><br>
 		Of course, I do many other things apart from studying, like working on my personal projects. Although I focus on data science & machine learning at a professional level, I also enjoy classic low-level programming as a hobby quite a lot!
 		<br><br>
-		There's also my passion for learning foreign languages, which dates back to my early school years. But above all, I consider myself an avid reader and a learning enthusiast, ready to take the difficult path if the need arises (that's also why I am proud to say I went through the <a href="https://www.ibo.org" target="_blank">International Baccalaureate</a> diploma!)
+		There's also my passion for learning foreign languages, drawing and writing. But above all, I consider myself an avid reader and a learning enthusiast, ready to take the difficult path if the need arises (that's also why I am proud to say I went through the <a href="https://www.ibo.org" target="_blank">International Baccalaureate</a> diploma!)
 	`);
 	$('#researchinterestsH4').text("Research Interests");
 	$('#researchinterests').text(`I am deeply interested in Machine Learning with state-of-the-art methods such as Deep Neural Networks, CNNs and genetic algorithms. I also have expertise working with bias mitigation.`);
