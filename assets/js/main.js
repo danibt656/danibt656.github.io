@@ -125,7 +125,7 @@ function loadEn() {
 	$('#city').html("Madrid <br/>Madrid, Spain");
 	$('#link-cv').text("CV [Updated 02/2023]");
 	$('#largedesc').html(`
-		I'm a <b>senior student in Computer Engineering</b> based in Madrid (Spain), currently studying at the Polythecnic Superior School, or <a href="https://www.uam.es/ss/Satellite/EscuelaPolitecnica/es/home.htm" target="_blank">EPS-UAM</a> for short.
+		I'm a <b>graduated Computer Engineer</b> based in Madrid (Spain).
 		<br><br>
 		Of course, I do many other things apart from studying, like working on my personal projects. Although I focus on data science & machine learning at a professional level, I also enjoy classic low-level programming as a hobby quite a lot!
 		<br><br>
@@ -232,7 +232,7 @@ function loadEs() {
 	$('#city').html("Madrid <br/>Madrid, España");
 	$('#link-cv').text("CV [Actualizado en 02/2023]");
 	$('#largedesc').html(`
-		Soy un <b>estudiante de último curso de Ingeniería Informática</b> en Madrid (España), estudiando en la Escuela Politécnica Superior, o <a href="https://www.uam.es/ss/Satellite/EscuelaPolitecnica/es/home.htm" target="_blank">EPS-UAM</a> para abreviar.
+		Soy un <b>Ingeniero Informático</b> basado en Madrid (España), graduado en la Escuela Politécnica Superior, o <a href="https://www.uam.es/ss/Satellite/EscuelaPolitecnica/es/home.htm" target="_blank">EPS-UAM</a> para abreviar.
 		<br><br>
 		Por supuesto, hago muchas otras cosas aparte de estudiar, como trabajar en mis proyectos personales. Aunque me centro en la ciencia de datos y el aprendizaje automático a nivel profesional, también disfruto mucho de la programación de bajo nivel!
 		<br><br>
@@ -334,7 +334,7 @@ function loadFr() {
 	
 	// ABOUT ME
 
-	$('#littledesc').text("Étudiant en dernière année d'ingénierie informatique à l'École Polytechnique Supérieure (UAM).");
+	$('#littledesc').text("Diplômé en ingénierie informatique à l'École Polytechnique Supérieure (UAM).");
 	$('#city').html("Madrid <br/>Madrid, Espagne");
 	$('#link-cv').text("CV [Mise à jour le 02/2023]");
 	$('#largedesc').html(`
