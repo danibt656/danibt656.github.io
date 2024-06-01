@@ -1,0 +1,112 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-image: url('assets/default.jpg');
+    background-size: auto;
+    background-repeat: repeat;
+}
+#description a {
+    text-decoration: none;
+    color:blue;
+}
+#description a:hover {
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid lightgray;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 5vh;
+}
+.container .main {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.container .main .zone {
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+.container .main #description {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.container p {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+.container .main #upload-zone {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.container .main #upload-zone #upload-buttons {
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: row;
+}
+#upload-buttons input {
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.file-input-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+.file-input-wrapper input[type="button"] {
+    padding: 1rem;
+}
+#pasteInput {
+    width: auto;
+    height: 3rem;
+    margin-left: 1vw;
+}
+::placeholder {
+    text-align: center;
+}
+#info {
+    background-color: rgb(121, 121, 121);
+    border: 2px solid rgb(87, 87, 87);
+    border-radius: 10px;
+    margin: 0.5vw;
+    padding: 5px 2vw; /* top-bottom left-right*/
+    color: lightgray;
+}
+.slider {
+    appearance: none;
+    height: 3vh;
+    background: rgb(224, 224, 224);
+    outline: none;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 3vh;
+    height: 3vh;
+    background: white;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.slider::-moz-range-thumb {
+    width: 3vh;
+    height: 3vh;
+    background: white;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 4px;
+}

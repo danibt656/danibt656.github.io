@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seamless Texture Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div id="description" class="zone">
+                <h2>Seamless texture checker</h2>
+                <p>Quick tool to test & check seamless tiles</p>
+                <p>Made by <a href="../">Daniel</a> | <a href="https://github.com/danibt656" target="_blank">Github</a> | <a href="https://www.threads.net/@dani_bt_" target="_blank">Threads</a></p>
+                <br>
+            </div>
+            <div id="upload-zone" class="zone">
+                <div id="upload-buttons">
+                    <div class="file-input-wrapper">
+                        <input id="fileInput" type="file" style="display: none;" />
+                        <input type="button" value="File" onclick="document.getElementById('fileInput').click();" />
+                    </div>
+                    <input type="text" id="pasteInput" placeholder="Paste image or URL" readonly>
+                </div>
+                <p>Upload image or paste from clipboard</p>
+                <input type="range" id="tileSlider" class="slider" min="10" max="100" value="30">
+            </div>
+        </div>
+       <div id="info">
+            <p>2024.06.01 Tested on Chrome & Ubuntu</p>
+       </div> 
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

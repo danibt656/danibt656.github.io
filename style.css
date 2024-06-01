@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    padding: 20px 0;
+    text-align: center;
+}
+header img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+header h3 {
+    margin: 10px 0 5px;
+}
+header small {
+    display: block;
+    margin-top: 5px;
+}
+header a {
+    color: blue;
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+}
+.container {
+    text-align: center;
+    padding: 50px 0;
+}
+.container a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: lightgray;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.container a {
+    text-decoration: none;
+}
+.container a:hover {
+    background-color: gray;
+    text-decoration: none;
+}
+footer {
+    font-size: 14px;
+    padding: 10px 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
